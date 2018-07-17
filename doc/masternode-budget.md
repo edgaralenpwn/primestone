@@ -19,7 +19,7 @@ Budgets go through a series of stages before being paid:
 1. Prepare collateral transaction
 --
 
-In this transaction we prepare collateral for "_cool-project_". This proposal will pay _1200_ PRIMESTONE, _12_ times over the course of a year totaling _24000_ PRIMESTONE.
+In this transaction we prepare collateral for "_cool-project_". This proposal will pay _1200_ PSC, _12_ times over the course of a year totaling _24000_ PSC.
 
 **Warning: if you change any fields within this command, the collateral transaction will become invalid.**
 
