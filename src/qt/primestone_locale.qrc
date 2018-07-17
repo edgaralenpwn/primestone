@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/primestone_bg.qm</file>
+        <file alias="de">locale/primestone_de.qm</file>
+        <file alias="en">locale/primestone_en.qm</file>
+        <file alias="es">locale/primestone_es.qm</file>
+        <file alias="fi">locale/primestone_fi.qm</file>
+        <file alias="fr">locale/primestone_fr.qm</file>
+        <file alias="it">locale/primestone_it.qm</file>
+        <file alias="ja">locale/primestone_ja.qm</file>
+        <file alias="pl">locale/primestone_pl.qm</file>
+        <file alias="pt">locale/primestone_pt.qm</file>
+        <file alias="ru">locale/primestone_ru.qm</file>
+        <file alias="sk">locale/primestone_sk.qm</file>
+        <file alias="sv">locale/primestone_sv.qm</file>
+        <file alias="vi">locale/primestone_vi.qm</file>
+        <file alias="zh_CN">locale/primestone_zh_CN.qm</file>
+        <file alias="zh_TW">locale/primestone_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+[Unit]
+Description=PrimeStone's distributed currency daemon
+After=network.target
+
+[Service]
+User=primestonecore
+Group=primestonecore
+
+Type=forking
+PIDFile=/var/lib/primestoned/primestoned.pid
+ExecStart=/usr/bin/primestoned -daemon -pid=/var/lib/primestoned/primestoned.pid \
+-conf=/etc/primestonecore/primestone.conf -datadir=/var/lib/primestoned -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

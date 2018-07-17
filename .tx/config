@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[primestone.qt-translation-012x]
+file_filter = src/qt/locale/primestone_<lang>.ts
+source_file = src/qt/locale/primestone_en.ts
+source_lang = en
