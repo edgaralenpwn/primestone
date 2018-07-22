@@ -153,7 +153,7 @@ void PaymentServer::LoadRootCAs(X509_STORE* _store)
             continue;
 
         // Not yet active/valid, or expired certificate
-        if (currentTime < cert.effectiPRIMESTONEte() || currentTime > cert.expiryDate()) {
+        if (currentTime < cert.effectiveDate() || currentTime > cert.expiryDate()) {
             ReportInvalidCertificate(cert);
             continue;
         }
