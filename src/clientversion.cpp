@@ -87,6 +87,7 @@ static std::string FormatVersion(int nVersion)
         return strprintf("%d.%d.%d", nVersion / 1000000, (nVersion / 10000) % 100, (nVersion / 100) % 100);
     else
         return strprintf("%d.%d.%d.%d", nVersion / 1000000, (nVersion / 10000) % 100, (nVersion / 100) % 100, nVersion % 100);
+        
 }
 
 std::string FormatFullVersion()
