@@ -46,7 +46,9 @@ const std::string CLIENT_NAME("PrimeStone");
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
 #define GIT_COMMIT_ID "e596762ca22d"
-#define GIT_COMMIT_DATE "Thu, 11 Jan 2018 12:31:49 +0300"
+#define GIT_COMMIT_DATE "Tue, 24 July 2018 1:00:00 GMT_7"
+
+
 #endif
 
 #define BUILD_DESC_WITH_SUFFIX(maj, min, rev, build, suffix) \
