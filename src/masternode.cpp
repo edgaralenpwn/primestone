@@ -236,7 +236,7 @@ void CMasternode::Check(bool fForce)
     }
 
     if(lastPing.sigTime - sigTime < MASTERNODE_MIN_MNP_SECONDS) {
-//	printf("lastPing.sigTime: %d   , sigTime: %d,   .............\n", lastPing.sigTime, sigTime);
+	printf("lastPing.sigTime: %d   , sigTime: %d,   .............\n", lastPing.sigTime, sigTime);
         nActiveState = MASTERNODE_PRE_ENABLED;
         if(nActiveStatePrev != nActiveState) {
             LogPrint("masternode", "CMasternode::Check -- Masternode %s is in %s state now\n", vin.prevout.ToStringShort(), GetStateString());

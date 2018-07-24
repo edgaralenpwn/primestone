@@ -4148,8 +4148,8 @@ Dies kann passieren, wenn einige PrimeStone aus ihrer Wallet bereits ausgegeben 
         <translation>Copyright (C) 2009-%i Die "Bitcoin Core"-Entwickler</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The PrimeStone Developers</source>
-        <translation>Copyright (C) 2014-%i Die "PrimeStone"-Entwickler</translation>
+        <source>Copyright (C) 2017-%i The PrimeStone Developers</source>
+        <translation>Copyright (C) 2017-%i Die "PrimeStone"-Entwickler</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>

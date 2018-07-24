@@ -5354,8 +5354,8 @@ https://www.transifex.com/projects/p/primestone/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The PrimeStone Developers</source>
-        <translation>Copyright (C) 2014-%i The PrimeStone Developers</translation>
+        <source>Copyright (C) 2017-%i The PrimeStone Developers</source>
+        <translation>Copyright (C) 2017-%i The PrimeStone Developers</translation>
     </message>
     <message>
         <location line="+14"/>
