@@ -4145,8 +4145,8 @@ https://www.transifex.com/projects/p/primestone/</translation>
         <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The PrimeStone Developers</source>
-        <translation>Запазени права (C) 2014-%i PrimeStone разработчиците</translation>
+        <source>Copyright (C) 2017-%i The PrimeStone Developers</source>
+        <translation>Запазени права (C) 2017-%i PrimeStone разработчиците</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>

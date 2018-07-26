@@ -4150,8 +4150,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Copyright (C) 2009-%i Bitcoin Core Kehittäjät</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The PrimeStone Developers</source>
-        <translation>Copyright (C) 2014-%i PrimeStone Kehittäjät</translation>
+        <source>Copyright (C) 2017-%i The PrimeStone Developers</source>
+        <translation>Copyright (C) 2017-%i PrimeStone Kehittäjät</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>

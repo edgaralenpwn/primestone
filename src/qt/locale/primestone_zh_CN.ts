@@ -3653,8 +3653,8 @@ https://www.transifex.com/projects/p/primestone/</translation>
         <translation>版权(C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The PrimeStone Developers</source>
-        <translation>版权 (C) 2014-%i The PrimeStone Developers</translation>
+        <source>Copyright (C) 2017-%i The PrimeStone Developers</source>
+        <translation>版权 (C) 2017-%i The PrimeStone Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
