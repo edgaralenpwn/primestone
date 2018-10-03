@@ -3161,6 +3161,22 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
     return true;
 }
 
+bool CheckBlockHeaderFromPoS(const CBlockHeader& block, CValidationState& state, bool fCheckPOW)
+{
+    // Check proof of work matches claimed amount
+    if (fCheckPOW && !CheckProofOfStake(block.GetHash(), block.nBits, Params().GetConsensus()))
+        return state.DoS(50, error("CheckBlockHeader(): proof of stake failed"),
+                         REJECT_INVALID, "high-hash");
+
+    // Check timestamp
+    if (block.GetBlockTime() > GetAdjustedTime() + 2 * 60 * 60)
+        return state.Invalid(error("CheckBlockHeader(): block timestamp too far in the future"),
+                             REJECT_INVALID, "time-too-new");
+
+    return true;
+}
+
+
 bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool fCheckPOW)
 {
     // Check proof of work matches claimed amount
