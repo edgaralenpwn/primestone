@@ -224,6 +224,9 @@ public:
         consensus.BIP34Height = 1;
         consensus.BIP34Hash = uint256S("0x0000047d24635e347be3aaaeb66c26be94901a2f962feccd4f95090191f208c1");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
+        consensus.posLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
+        consensus.nPoSTargetTimespan = 9 * 60; // PrimeStone: 9 min
+        consensus.nPoSTargetSpacing = 1.5 * 60; // PrimeStone: 1.5 minutes
         consensus.nPowTargetTimespan = 9 * 60; // PrimeStone: 9 min
         consensus.nPowTargetSpacing = 1.5 * 60; // PrimeStone: 1.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
